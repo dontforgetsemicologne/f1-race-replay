@@ -4,12 +4,12 @@ import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
         url: "https://f1-race-replay.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "F1 Race Replay",
-      },
+        alt: "F1 Race Replay"
+      }
     ],
-    type: "website",
-  },
+    type: "website"
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
