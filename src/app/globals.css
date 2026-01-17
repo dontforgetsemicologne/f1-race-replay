@@ -1,1 +1,77 @@
 @import "tailwindcss";
+
+/* Formula 1*/
+@font-face {
+  font-family: "Formula1";
+  src: url("/fonts/formula1/Formula1-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formula1";
+  src: url("/fonts/formula1/Formula1-Bold.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formula1";
+  src: url("/fonts/formula1/Formula1-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Formula 1 Wide */
+@font-face {
+  font-family: "Formula1Wide";
+  src: url("/fonts/formula1/Formula1-Wide.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Titillium Web */
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/fonts/titillium/TitilliumWeb-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/fonts/titillium/TitilliumWeb-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/fonts/titillium/TitilliumWeb-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* KH Interference F1 */
+@font-face {
+  font-family: "KH Interference F1";
+  src: url("/fonts/kh-interference-f1/KHInterferenceF1-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "KH Interference F1";
+  src: url("/fonts/kh-interference-f1/KHInterferenceF1-Bold.woff2");
+  font-weight: 700;
+}
+
+@theme inline {
+  --font-formula1: var(--font-formula1, "Formula1", sans-serif);
+  --font-formula1-wide: var(--font-formula1-wide, "Formula1Wide", sans-serif);
+  --font-titillium-web: var(--font-titillium-web, "Titillium Web", sans-serif);
+  --font-kh-interference-f1: var(
+    --font-kh-interference-f1,
+    "KH Interference F1",
+    sans-serif
+  );
+}
