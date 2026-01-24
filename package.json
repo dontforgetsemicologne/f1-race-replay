@@ -4,9 +4,9 @@
   "description": "A web application for replaying and analyzing Formula 1 race data with interactive visualizations and detailed race statistics.",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "bun run --bun next dev",
+    "build": "bun run --bun next build",
+    "start": "bun run --bun next start",
     "lint": "biome check",
     "format": "biome format --write",
     "prepare": "husky"
