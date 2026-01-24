@@ -12,6 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@elysiajs/eden": "^1.4.6",
     "elysia": "latest",
     "next": "16.1.2",
     "nuqs": "^2.8.6",
